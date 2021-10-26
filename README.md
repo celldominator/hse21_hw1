@@ -76,7 +76,7 @@ multiqc -o trimmed_multiqc trimmed_fastqc
 time platanus assemble -o Poil -f trimmed_fastq/pe_R1.fastq.trimmed trimmed_fastq/pe_R2.fastq.trimmed 2> assemble.log
 ```
 9) Анализ полученных контигов (общее кол-во контигов, их общая длина, длина самого длинного контига, N50):
-(реализовано в jupyter_notebook, который также приложен)
+(реализовано в jupyter_notebook, который также приложен - ДЗ№1 Биоинформатика 3 курс Майнор)
 ![image](https://user-images.githubusercontent.com/60548614/138952434-426ac9e4-52d1-49e4-8fd3-0a304086d00a.png)
 
 
